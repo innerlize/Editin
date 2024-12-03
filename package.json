@@ -8,8 +8,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx,json}\" \"cypress/**/*.{js,jsx,ts,tsx,json}\" --fix",
-    "format": "prettier  \"src/**/*.{js,jsx,ts,tsx,json}\" \"cypress/**/*.{js,jsx,ts,tsx,json}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx,json}\" --fix",
+    "format": "prettier \"src/**/*.{js,jsx,ts,tsx,json}\" --write",
     "prepare": "husky"
   },
   "jest": {
