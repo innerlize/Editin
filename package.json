@@ -22,10 +22,6 @@
     "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write"
-    ],
-    "cypress/tests/**/*.spec.ts": [
-      "eslint --fix",
-      "prettier --write"
     ]
   },
   "dependencies": {
@@ -62,7 +58,6 @@
     "@types/jest": "^29.5.12",
     "@types/react": "~18.3.12",
     "@types/react-test-renderer": "^18.3.0",
-    "cypress": "^13.16.0",
     "eslint": "^9.16.0",
     "eslint-plugin-react": "^7.37.2",
     "globals": "^15.13.0",
