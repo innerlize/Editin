@@ -4,16 +4,13 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx,json}\" \"cypress/**/*.{js,jsx,ts,tsx,json}\" --fix",
     "format": "prettier  \"src/**/*.{js,jsx,ts,tsx,json}\" \"cypress/**/*.{js,jsx,ts,tsx,json}\" --write",
-    "prepare": "husky",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open"
+    "prepare": "husky"
   },
   "jest": {
     "preset": "jest-expo"
